@@ -10,6 +10,7 @@ class CountingPipeline:
         self.class_names = self.detector.class_names
         self.video_path = args.input_path
         self.saved_path = args.output_path
+        print(f"cam_config = {cam_config}")
         self.cam_config = cam_config
         self.zone_path = cam_config.zone_path
         self.config = config
